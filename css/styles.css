@@ -1,0 +1,42 @@
+.listitems {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  list-style-type: none;
+  }
+ 
+
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  h6 {
+    text-align: center;
+  } 
+  
+   
+
+  li {
+    margin: 5px;
+  }
+
+  .btn{
+    text-transform: capitalize;
+  }
+
+  .btn:hover{
+    background-color:yellow;
+    color:blue;
+  }
+
+  .navbar {
+    background-color: blue !important;
+  }
+
+  .navbar-brand {
+    color: white !important;
+  }
